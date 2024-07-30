@@ -139,6 +139,9 @@ body {
 /* media query  */
 
 @media only screen and (max-width : 1500px) {
+    .navbar{
+        margin-top: 0.5rem;
+    }
     .header {
         width: 85vw;
     }
@@ -150,6 +153,8 @@ body {
 @media only screen and (max-width : 780px) {
     .header{
         height: 22vmin;
+        border-radius: 15px;
+        border: 3px solid #EFE9E7;
     }
     .heading{
         height: 21vmin;
@@ -160,23 +165,31 @@ body {
     }
     .choices{
         gap: 1rem;
+        margin-top: 3rem;
     }
     .score{
         height: 16vmin;
         width: 25vmin;
+        border-radius: 10px;
     }
     .score span {
         font-size: 3vmin;
+        margin-top: 0.2rem;
     }
     .score #user-score{
         font-size: 7vmin;
     }
+    .score-board{
+        margin-top: 1rem;
+    }
     .comp-score{
         height: 16vmin;
         width: 25vmin;
+        border: 3px solid #EFE9E7;
     }
     .comp-score span{
         font-size: 3vmin;
+        margin-top: 0.2rem;
     }
     .comp-score #comp-score{
         font-size: 7vmin;
@@ -184,6 +197,7 @@ body {
     .msg-container{
         height: 12vmin;
         width: 35vmin;
+        border-radius: 10px;
     }
     #msg{
         font-size: 3vmin;
