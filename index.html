@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="header">
+            <div class="heading">
+                <h1>Rock Paper Scissor</h1>
+            </div>
+            <div class="score">
+                <span>Your Score</span>
+                <p id="user-score">0</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="Images/rock.png" alt="Rock img">
+        </div>
+        <div class="choice" id="paper">
+            <img src="Images/paper.png" alt="Paper img">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="Images/scissors.png" alt="Scissor img">
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="comp-score">
+            <span>Comp Score</span>
+            <p id="comp-score">0</p>
+        </div>
+        <div class="msg-container">
+            <p id="msg">Play your move</p>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
